@@ -28,56 +28,23 @@
 </head>
 <body>
 <main>
-  <p class="seal">墨</p>
-  <h1>Path of Ink — Privacy Policy</h1>
-  <p class="meta"><strong>Effective date:</strong> June 24, 2026 · Developer: John Reis · Contact: <a href="mailto:dev.johnlenonreis@gmail.com">dev.johnlenonreis@gmail.com</a></p>
-
-  <p class="lead">Path of Ink is a single-player game built to respect your privacy:
-  <strong>no advertising, no third-party analytics, and no tracking.</strong>
-  This page explains the little data the game does handle, and why.</p>
-
-  <h2>What the game stores on your device</h2>
-  <p>Your progress and settings are saved <strong>locally on your device</strong> and can be synchronized across your devices using iCloud:</p>
-  <ul>
-    <li>Game progress: high scores, daily-streak history, course/star progress, unlocked inks and achievements.</li>
-    <li>Settings: sound, haptics, reduced-ink, left-hand, and language preference.</li>
-    <li>Your purchase status (whether you own the one-time “Full Unlock”).</li>
-  </ul>
-  <p>This data never leaves your device except to sync with your personal iCloud account or as described below. Deleting the app removes local data, but sync data in iCloud will remain unless managed or cleared through your Apple account settings.</p>
-
-  <h2>Data shared with Apple and Google</h2>
-  <p>Path of Ink uses first-party platform services. It does <strong>not</strong> share your data with any other third parties.</p>
-  <ul>
-    <li><strong>Cloud Sync (CloudKit)</strong> — The game uses <strong>Apple CloudKit</strong> to sync game progress and settings between your iOS and macOS devices. This data is stored in your private iCloud database. The developer has no access to this data, and it is governed by Apple's iCloud privacy policy.</li>
-    <li><strong>Leaderboards</strong> — When you use the global leaderboards, the game submits your score together with the player identifier provided by <strong>Apple Game Center</strong> (iOS) or <strong>Google Play Games Services</strong> (Android), so rankings can be displayed. This is governed by Apple’s and Google’s own privacy policies. It is <strong>not</strong> used to track you or for advertising.</li>
-    <li><strong>In-app purchase</strong> — The one-time “Full Unlock” is processed entirely by <strong>Apple</strong> or <strong>Google</strong>. We never see or store your payment details; we only receive confirmation that the purchase succeeded.</li>
-  </ul>
-
-  <h2>What we do NOT do</h2>
-  <ul>
-    <li>No advertising or ad networks.</li>
-    <li>No third-party analytics or tracking SDKs.</li>
-    <li>No collection of your name, email, contacts, location, or device advertising ID.</li>
-    <li>No sale or sharing of personal data for marketing.</li>
-  </ul>
-
-  <h2>Children</h2>
-  <p>Path of Ink does not knowingly collect personal information from children. The game contains no ads and no data collection beyond what is described above.</p>
-
-  <h2>Your choices</h2>
-  <ul>
-    <li>You can disable iCloud sync for Path of Ink at any time through your Apple device settings (under your Apple ID > iCloud > Apps Using iCloud).</li>
-    <li>You can play without using the leaderboards; scores are submitted only when you use Game Center / Play Games features.</li>
-    <li>You can manage or sign out of Game Center / Play Games in your device settings.</li>
-    <li>Deleting the app removes all locally stored progress and settings.</li>
-  </ul>
-
-  <h2>Changes to this policy</h2>
-  <p>If this policy changes, the updated version will be posted here with a new effective date.</p>
-
-  <footer>
-    Questions about privacy? Email <a href="mailto:dev.johnlenonreis@gmail.com">dev.johnlenonreis@gmail.com</a>.
-  </footer>
+<h1>Privacy Policy — Path of Ink</h1>
+<p><strong>Effective for the 1.3.7 monetization relaunch, prepared October 24, 2026.</strong> <strong>Developer:</strong> John Reis · <strong>Contact:</strong> dev.johnlenonreis@gmail.com</p>
+<p>Earlier versions do not contain AdMob advertising or the coin wallet described below.</p>
+<h2>Progress, settings and cloud recovery</h2>
+<p>The game stores scores, Path progress, unlocked rewards, equipment, language, audio and accessibility settings on your device. If iCloud is available, profile progress is synchronized through Apple&#x27;s CloudKit private database. A separate private wallet stores your coin balance, cosmetic ownership and a transaction ledger. Ledger entries use Apple transaction IDs or gameplay reward IDs to avoid duplicate credits. Purchases and coin spending require an online iCloud sync; earned rewards wait locally while offline. Coins do not expire.</p>
+<p>Deleting the app removes local data and unsynchronized rewards. It does not delete your iCloud wallet or Apple purchase history. Reinstalling with the same iCloud account can recover the synchronized wallet and cosmetics. Contact the developer for help with deletion requests; Apple also provides controls for app data in iCloud settings. Do not delete cloud wallet data if you wish to recover it later.</p>
+<h2>Purchases and leaderboards</h2>
+<p>Apple processes Full Unlock and optional consumable coin purchases. The developer does not receive your card or payment details. StoreKit provides verified purchase information; CloudKit records fulfilled transaction IDs. A pseudonymous account token binds coin purchases to the intended iCloud wallet. Restore Purchases restores Full Unlock; consumables are recovered through the wallet rather than Apple&#x27;s restore flow.</p>
+<p>Game Center processes your player identifier and submitted scores for leaderboards. The developer uses these services for game functionality, not ad targeting.</p>
+<h2>Optional rewarded advertising</h2>
+<p>Players without Full Unlock may choose a Google AdMob rewarded ad for an eligible continue or result coin bonus. Ads play only when you choose to watch for a reward; they never interrupt active gameplay. Normal play and retry remain accessible when an ad is unavailable or declined. Full Unlock owners see no ads: they receive three extra starting lives in Climb and Daily (except One Life) and eligible result coin bonuses without watching an ad.</p>
+<p>Google&#x27;s Mobile Ads and User Messaging Platform SDKs process information needed for consent, advertising, fraud prevention and measurement. This can include IP address (and approximate location derived from it), app/device information and app-scoped identifiers, ad views/interactions, crash logs and performance diagnostics. See <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google&#x27;s SDK data disclosure</a> and <a href="https://policies.google.com/privacy">Google&#x27;s privacy policy</a>.</p>
+<p>The game defaults to non-personalized advertising, does not request IDFA access, and does not send your wallet balance, cosmetic ownership, leaderboard identity, precise location, contacts or payment details to AdMob. Non-personalized ads still involve data processing. Consent is requested where required before ad requests; use Privacy Options in the cosmetic shop to revisit available choices. The shop also links to Google&#x27;s inappropriate-ad reporting form.</p>
+<h2>Your choices and children</h2>
+<p>You can decline optional ads, manage privacy options where available, avoid Game Center, or sign out of platform services in device settings. There is no separate third-party gameplay analytics SDK. The game does not ask for your name, email, contacts or precise location. It is not directed to children; it does not knowingly request personal information from children. Contact the developer if you believe a child&#x27;s information has been provided.</p>
+<h2>Changes and contact</h2>
+<p>Updates appear on this page with a revised effective version/date. Questions or data requests: <strong>dev.johnlenonreis@gmail.com</strong>.</p>
 </main>
 </body>
 </html>
